@@ -2,13 +2,17 @@
   "name": "node-video-collab-peer",
   "version": "1.0.0",
   "description": "Peer server companion to node-video-collab",
+  "author": "Fernan de Dios",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Fernan de Dios",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fernandedios/node-video-collab-peer.git"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "peer": "^0.2.10"
